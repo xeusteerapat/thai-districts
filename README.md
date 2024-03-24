@@ -1,6 +1,6 @@
 # Playwright in Docker container
 
-Example of using Playwright with Node.js scraping Districts in Thailand.
+Example of using Playwright with Node.js scraping Districts in Thailand. Also use Redis as a cache db.
 
 1. Unfortunately, you need the `debian` os since `Playwright` docker image from Microsoft only support debian.
 2. Run `docker-compose up --build`

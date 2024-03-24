@@ -13,7 +13,7 @@ server.register(fastifyRedis, {
   family: 4,
 });
 
-server.get('/hello', async (req, reply) => {
+server.get('/', async (req, reply) => {
   return {
     hello: 'world',
   };
