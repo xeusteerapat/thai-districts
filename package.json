@@ -1,0 +1,26 @@
+{
+  "name": "thai-districts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "start": "node --env-file=.env dist/index.js",
+    "dev": "node --watch dist/index.js",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@fastify/redis": "^6.1.1",
+    "fastify": "^4.26.2",
+    "ioredis": "^5.3.2",
+    "playwright": "^1.42.1"
+  }
+}
